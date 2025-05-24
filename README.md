@@ -34,7 +34,7 @@ python3 --version
 
 2. Clone or download the repository:
 ```bash
-git clone https://github.com/yourusername/PySortMarkdown.git
+git clone https://github.com/cschladetsch/PySortMarkdown.git
 cd PySortMarkdown
 ```
 
