@@ -106,12 +106,12 @@ class TestRunner:
         
         # Test files
         test_files = [
-            ("Basic Sorting", "test_basic.md"),
-            ("Nested Sections", "test_nested.md"),
-            ("Mixed Content", "test_mixed.md"),
-            ("Unicode Support", "test_unicode.md"),
-            ("Edge Cases", "test_edge_cases.md"),
-            ("Original Test", "test_input.md"),
+            ("Basic Sorting", "test/test_basic.md"),
+            ("Nested Sections", "test/test_nested.md"),
+            ("Mixed Content", "test/test_mixed.md"),
+            ("Unicode Support", "test/test_unicode.md"),
+            ("Edge Cases", "test/test_edge_cases.md"),
+            ("Original Test", "test/test_input.md"),
         ]
         
         for test_name, test_file in test_files:

@@ -318,13 +318,13 @@ We provide several test files to validate different scenarios:
 
 ### Creating Test Files
 
-The repository includes the following test files:
+The repository includes the following test files in the `test/` directory:
 
-1. **test_basic.md** - Tests basic alphabetical sorting of sections
-2. **test_nested.md** - Tests deeply nested section hierarchies
-3. **test_mixed.md** - Tests sorting with various Markdown elements (code blocks, tables, lists)
-4. **test_unicode.md** - Tests international character support
-5. **test_edge_cases.md** - Tests various edge cases and unusual scenarios
+1. **test/test_basic.md** - Tests basic alphabetical sorting of sections
+2. **test/test_nested.md** - Tests deeply nested section hierarchies
+3. **test/test_mixed.md** - Tests sorting with various Markdown elements (code blocks, tables, lists)
+4. **test/test_unicode.md** - Tests international character support
+5. **test/test_edge_cases.md** - Tests various edge cases and unusual scenarios
 
 ### Running the Test Suite
 
@@ -346,13 +346,13 @@ Test individual files:
 
 ```bash
 # Test basic sorting
-python3 sort_markdown.py test_basic.md test_output/basic_sorted.md
+python3 sort_markdown.py test/test_basic.md test_output/basic_sorted.md
 
 # Test unicode handling
-python3 sort_markdown.py test_unicode.md test_output/unicode_sorted.md
+python3 sort_markdown.py test/test_unicode.md test_output/unicode_sorted.md
 
 # Test edge cases
-python3 sort_markdown.py test_edge_cases.md test_output/edges_sorted.md
+python3 sort_markdown.py test/test_edge_cases.md test_output/edges_sorted.md
 ```
 
 ## Edge Cases
